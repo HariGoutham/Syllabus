@@ -1,0 +1,128 @@
+\documentclass[a4paper,8pt]{article}
+
+\usepackage{parskip}
+\usepackage{hologo}
+\usepackage{fontspec}
+
+%other packages for formatting
+\RequirePackage{color}
+\RequirePackage{graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[scale=0.9, top=.4in, bottom=.4in]{geometry}
+
+%tabularx environment
+\usepackage{tabularx}
+
+%for lists within experience section
+\usepackage{enumitem}
+
+% centered version of 'X' col. type
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+
+%to prevent spillover of tabular into next pages
+\usepackage{supertabular}
+\usepackage{tabularx}
+\newlength{\fullcollw}
+\setlength{\fullcollw}{0.42\textwidth}
+
+%custom \section
+\usepackage{titlesec}
+\usepackage{multicol}
+\usepackage{multirow}
+
+%CV Sections inspired by:
+%http://stefano.italians.nl/archives/26
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{1pt}{2pt}{2pt}
+
+%for publications
+\usepackage[style=authoryear,sorting=ynt, maxbibnames=2]{biblatex}
+
+%Setup hyperref package, and colours for links
+\usepackage[unicode, draft=false]{hyperref}
+\color[HTML]{110223}%{1C033C}
+\addbibresource{citations.bib}
+\setlength\bibitemsep{1em}
+
+%for social icons
+\usepackage{fontawesome5}
+% \usepackage{times}
+
+% For underline
+\usepackage[normalem]{ulem}
+
+\setmainfont{Arial}  % Set it to whatever you like
+
+\begin{document}
+
+% non-numbered pages
+\pagestyle{empty}
+
+
+\begin{tabularx}{\linewidth}{@{} C @{}}
+\color[HTML]{1C033C} \Huge{Ramireddy Hari Goutham Reddy} \\[6pt]
+\\
+\textcolor[HTML]{371e77}{{{{\faEnvelope} ramireddyharigouthamreddy@gmail.com}} $|$}
+\textcolor[HTML]{371e77}{{{\faMobile} +65 84131753}}
+
+\textcolor[HTML]{371e77}{{\raisebox{-0.05\height}{\faGithub} \href{https://github.com/HariGoutham}{github.com/HariGoutham}} $|$}
+\textcolor[HTML]{371e77}{{\raisebox{-0.05\height}{\faLinkedin} \href{https://linkedin.com/in/harigoutham}{linkedin.com/in/harigoutham}}}
+\end{tabularx}
+
+\section{Skills}
+\color[HTML]{1C033C}\textbf{Languages:} Java, JavaScript, TypeScript, SQL\\[3pt]
+\color[HTML]{1C033C}\textbf{Technologies \& Tools:} Spring Boot, Spring, Spring Data JPA, Spring JDBC, MyBatis, Angular, GraphQL, JUnit, Mockito, Cucumber, Spock, PostgreSQL, MySQL, H2 DB, Docker, Kubernetes, GitLab Runner, ArgoCD, HELM, Bamboo, Travis, GoCD, Swagger UI, Swagger, Postman, IntelliJ, VSCode, DBeaver, WinSCP, Putty, Kafka, SonarLint, SonarQube, Apache POI, HP ALM, Medistrano.\\[3pt]
+
+%Experience
+\section{Work Experience}
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{{Crédit Agricole Corporate and Investment Bank, Singapore}} \hfill \color[HTML]{371e77} Feb 2022 - Present \\[4pt]
+\color[HTML]{371e77}\textbf{\textit{Senior Software Consultant}}\ \hfill \color[HTML]{4B28A4} \\[5pt]
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=2em, itemsep=2pt]
+        \item Contributed to the development of Loanscape, a microservices-based platform for Crédit Agricole CIB, facilitating connections between investors, lenders, and borrowers in syndicated markets. Played a pivotal role in the Mitigant project, focusing on the storage and management of collateral to mitigate financial transaction risks.
+        \item Developed and implemented GraphQL queries within the Loanscape platform, leveraging its ability to provide a flexible and efficient way to request and retrieve specific data. This approach enabled clients to access only the data they needed, improving the overall responsiveness of the web application built with Java, Spring Boot, and Angular.
+        \item Developed and executed robust migration processes using Talend ETL to transition legacy data from various regional applications to the Loanscape platform. Ensured data integrity and consistency throughout the migration, facilitating a smooth integration into the unified microservices architecture.
+        \item Implemented Docker and Kubernetes for containerization and orchestration of the Loanscape platform, enhancing deployment consistency. Established automated CI/CD pipelines using GitLab Runner, ArgoCD, and HELM.
+        \item Java, Spring Boot, Angular, Docker, Kubernetes, GitLab Runner, ArgoCD, HELM, PostgreSQL, Junit,
+           Cucumber,GraphQL, SonarQube.
+    \end{itemize}
+\end{minipage}
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\color[HTML]{1C033C} \textbf{{Emids, Bangalore}} \hfill \color[HTML]{371e77} Mar 2022 - Jan 2023 \\[4pt]
+\color[HTML]{371e77}\textbf{\textit{Senior Software Engineer}}\ \hfill \color[HTML]{4B28A4} \\[5pt]
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=2em, itemsep=2pt]
+        \item Improved metadata management for clinical trial documentation across multiple countries and sites.
+        \item Implemented web service interfaces for tracking clinical trial documents, resulting in a robust system with significantly reduced bugs in higher environments through extensive unit testing with JUnit and Behavior-Driven Development (BDD) testing using Cucumber.
+        \item Established automated CI/CD pipelines for clinical trial management in Medidata using Travis, Medistrano, and GoCD.
+        \item Spring Boot, Java, Spring Data JPA, Tomcat, Mockito, MySQL, H2 DB, Travis, Medistrano, GoCD, Git.
+    \end{itemize}
+\end{minipage}
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\color[HTML]{1C033C} \textbf{Cognizant Technology Solutions, Hyderabad} \hfill \color[HTML]{371e77} Dec 2016 - Feb 2022 \\[4pt]
+\color[HTML]{371e77}\textbf{\textit{Software Engineer}} \hfill \color[HTML]{4B28A4} \\[5pt]
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=2em, itemsep=2pt]
+        \item Developed web services using Spring Boot to enhance Walmart's distribution center operations, focusing on decanting, receiving, smart slotting, and inventory management. Implemented schedulers and Kafka for inter-application communication to streamline logistics workflows and improve efficiency.
+        \item Developed web services for O'Reilly Auto Parts to manage product pricing based on criteria like product age, model type, and customer category. Gathered requirements, estimated sprint efforts, collaborated on design, implemented modules, and addressed code issues.
+        \item Developed web services at Walgreens to enhance cosmetic planogram arrangements by providing real-time data access and enabling quick updates based on customer preferences.
+        \item Migrated Ezcorp's online pawn broker software from a Java Swing standalone application to a web-based platform utilizing Spring and Angular, enabling efficient transactions for sales, layaways, loans, and purchases.
+        \item Java, Spring Boot, RESTful Services, Apache POI, JUnit, Cucumber, Kafka, SonarLint, SonarQube, Swagger UI, Bamboo, HP ALM, Jira, Oracle Database.
+    \end{itemize}
+    \end{minipage}
+\end{tabularx}\\[3pt]
+
+% Education
+\section{Education}
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\color[HTML]{1C033C} \textbf{SCSVMV University, Kanchipuram} & \hfill \color[HTML]{371e77} Jun 2012 - May 2016 \\
+\color[HTML]{371e77} B.E. in Electronics and Communication & \hfill \color[HTML]{4B28A4} \textit{\textbf{CGPA: 8.89/10}} \\
+\multicolumn{2}{@{}X@{}}{Relevant Coursework: Object-Oriented Programming in Java, Databases, Data Structures and Algorithms, and MATLAB for Image Processing and Analysis.}
+\end{tabularx}\\[3pt]
+
+\end{document}
