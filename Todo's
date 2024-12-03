@@ -1,53 +1,28 @@
 Apply DL and embassy appointement etc.(Police pass slip, Embassy, Police)
 Check EPFO for changed bank account.(Mail Sent to emids).
-
 ----------------------------------------------------------------------------------------
-DS ALGO -> Leet code 75 (Agile Software Development, Principles, Patterns, and Practices book)
-Spring boot graphql 
-Java script, Angular 
-Talend
-Docker Kubernetes Helm Argo and Gitlab runner
-Dyntrace, ELK stack
-----------------------------------------------------------------------------------------
+HTML
+CSS
+JS
+ANGULAR
+----------------------
+DS 
+ALGO
+DP
+SOLID
+Leetcode
+----------------------
+Java
+Springboot
+----------------------
+Repos
+Docker
+Kubernetes
+Helm
+Gitlab (backend project,frontend project) and Gitlab Runner
+Git(other learnings as projects)
+ArgoCd(setup backend project, setup frontend project)
+----------------------
 
-Set 1:
-DS ALGO - Andrei Udemy
-Design patterns - Udemy
-
-Patterns 
-https://github.com/recnac-itna/Algorithm_Templates
-https://www.pluralsight.com/resources/blog/guides/algorithm-templates-introduction
-https://www.pluralsight.com/resources/blog/guides/algorithm-templates-two-pointers-part-1
-https://www.pluralsight.com/resources/blog/guides/algorithm-templates-two-pointers-part-2
-https://www.pluralsight.com/resources/blog/guides/algorithm-templates-two-pointers-part-3
-
-and leet code 75
-
-Set 2:
-Spring boot and netfilx DGS -> topics write down
-Java -> topics write down
-
-Set 3:
-HTML, TS, JS ,CSS - basics and interview.
-Angular, Apollo graphQl - basics and interview. 
-
-Set 4: 
-Docker, Kubernetes, Helm, GitLab runner, Argocd
-
-
-Set 5:
-Resume and previous experience preparation
-
-Set 6:
-Design questions, Best practices and leadership and comm questions
-----------------------------------
-
-1. Resume -> prepare fully 
-2. Git -> setup backend project
-       -> setup frontend project
-			 -> other learning as projects 
-3. ds algo,solid , design patterns ,problem patterns
-4. Html css js ts angular
-5. Java Spring boot 
 
 
