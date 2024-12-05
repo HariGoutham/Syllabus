@@ -1,8 +1,10 @@
-# Problem-Solving Patterns
+# 🌟 Problem-Solving Patterns
 
-This repository contains a collection of problem-solving patterns commonly used in coding interviews and competitive programming. Each pattern is accompanied by relevant LeetCode problems for practice.
+Welcome to the **Problem-Solving Patterns** repository! This collection is designed to help you master essential coding techniques that are frequently encountered in technical interviews and competitive programming. Each pattern is linked to relevant LeetCode problems for hands-on practice. Let's dive in!
 
-## Table of Contents
+---
+
+## 📚 Table of Contents
 
 1. [Arrays and Strings](#arrays-and-strings)
 2. [Linked Lists](#linked-lists)
@@ -13,6 +15,8 @@ This repository contains a collection of problem-solving patterns commonly used 
 7. [Stacks](#stacks)
 8. [Queues](#queues)
 9. [Hash Tables](#hash-tables)
+
+---
 
 ## 1. Arrays and Strings
 
@@ -40,6 +44,8 @@ This repository contains a collection of problem-solving patterns commonly used 
   - [54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
   - [733. Flood Fill](https://leetcode.com/problems/flood-fill/)
 
+---
+
 ## 2. Linked Lists
 
 - **Fast and Slow Pointer**
@@ -47,6 +53,8 @@ This repository contains a collection of problem-solving patterns commonly used 
   
 - **In-place Reversal of Linked List**
   - [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
+
+---
 
 ## 3. Trees
 
@@ -57,10 +65,8 @@ This repository contains a collection of problem-solving patterns commonly used 
 - **Breadth-First Search (BFS)**
   - [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
   - [542. 01 Matrix](https://leetcode.com/problems/01-matrix/)
-  
-- **Binary Tree Traversal**
-  - [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
-  - [145. Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)
+
+---
 
 ## 4. Graphs
 
@@ -81,6 +87,8 @@ This repository contains a collection of problem-solving patterns commonly used 
     - [547. Number of Provinces](https://leetcode.com/problems/number-of-provinces/)
     - [721. Accounts Merge](https://leetcode.com/problems/accounts-merge/)
 
+---
+
 ## 5. Dynamic Programming
 
 - **Dynamic Programming (DP)**
@@ -88,14 +96,17 @@ This repository contains a collection of problem-solving patterns commonly used 
   - [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
   
 - **0/1 Knapsack (Dynamic Programming)**
-  - [416. Partition Equal Subset Sum]( https://leetcode.com/problems/partition-equal-subset-sum/)
-  - [0/1 Knapsack Problem](https://www.geeksforgeeks.org/0-1-knapsack-problem-dp-10/)
+  - [416. Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)
+
+---
 
 ## 6. Heaps
 
-- **Top 'K' Elements**
+- **Top 'K Elements**
   - [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
   - [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
+
+---
 
 ## 7. Stacks
 
@@ -103,11 +114,15 @@ This repository contains a collection of problem-solving patterns commonly used 
   - [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
   - [394. Decode String](https://leetcode.com/problems/decode-string/)
 
+---
+
 ## 8. Queues
 
 - **Sliding Window Maximum**
   - [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
   - [346. Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/)
+
+---
 
 ## 9. Hash Tables
 
@@ -117,8 +132,11 @@ This repository contains a collection of problem-solving patterns commonly used 
   
 - **Subarray Sum Equals K**
   - [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
-  - [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
 
-## Conclusion
+---
 
-This repository serves as a comprehensive guide to various problem-solving patterns that can enhance your coding skills and prepare you for technical interviews. Each pattern is linked to relevant LeetCode problems for practice. Happy coding!
+## 🎉 Conclusion
+
+This repository serves as your go-to guide for mastering various problem-solving patterns that can significantly enhance your coding skills and prepare you for technical interviews. Each pattern is linked to relevant LeetCode problems for practice. 
+
+Happy coding! 🚀 If you have any questions or need further assistance, feel free to reach out!
