@@ -1,167 +1,128 @@
-# 🌟 Problem-Solving Patterns
+# 🚀 LeetCode Problems Categorized by Data Structures and Patterns
 
-Welcome to the **Problem-Solving Patterns** repository! This collection is designed to help you master essential coding techniques frequently encountered in technical interviews and competitive programming. Each pattern is linked to relevant LeetCode problems for hands-on practice. Let's dive in!
+Welcome to the ultimate **LeetCode problem-solving guide**, where problems are grouped by **Data Structures** and further categorized by **Problem-Solving Patterns**. Use this guide to strengthen your coding skills and ace technical interviews! 🎯
 
 ---
 
 ## 📚 Table of Contents
 
-1. [Arrays and Strings](#arrays-and-strings)
-2. [Linked Lists](#linked-lists)
-3. [Trees](#trees)
-4. [Graphs](#graphs)
-5. [Dynamic Programming](#dynamic-programming)
-6. [Heaps](#heaps)
-7. [Stacks](#stacks)
-8. [Queues](#queues)
-9. [Hash Tables](#hash-tables)
-10. [Binary](#binary)
-11. [Intervals](#intervals)
-12. [Matrix](#matrix)
+1. [Arrays](#arrays)  
+2. [Strings](#strings)  
+3. [Linked Lists](#linked-lists)  
+4. [Trees](#trees)  
+5. [Graphs](#graphs)  
+6. [Dynamic Programming](#dynamic-programming)  
+7. [Heaps](#heaps)  
+8. [Matrix](#matrix)  
+9. [Intervals](#intervals)
 
 ---
 
-## 1. Arrays and Strings
+## 1. Arrays
 
-### **Two-Pointer Technique**
-- [1. Two Sum](https://leetcode.com/problems/two-sum/)
-- [15. 3Sum](https://leetcode.com/problems/3sum/)
-- [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
+### 🔹 Basic Array Operations
+- [Two Sum](https://leetcode.com/problems/two-sum/)  
+- [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)  
+- [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)  
 
-### **Sliding Window Technique**
-- [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
-- [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)
+### 🔹 Maximum/Minimum Subarray Problems
+- [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)  
+- [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)  
+- [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)  
 
-### **String Manipulation Patterns**
-- [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
-- [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)
-- [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
-- [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
+### 🔹 Search Problems
+- [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)  
 
-### **Backtracking**
-- [46. Permutations](https://leetcode.com/problems/permutations/)
-- [51. N-Queens](https://leetcode.com/problems/n-queens/)
-
-### **Maximum/Minimum Problems**
-- [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
-- [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
-- [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)
-
-### **Interval Problems**
-- [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/)
-- [57. Insert Interval](https://leetcode.com/problems/insert-interval/)
-
-### **Matrix Traversal Patterns**
-- [54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
-- [733. Flood Fill](https://leetcode.com/problems/flood-fill/)
+### 🔹 Two-Pointer Technique
+- [3Sum](https://leetcode.com/problems/3sum/)  
+- [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)  
 
 ---
 
-## 2. Linked Lists
+## 2. Strings
 
-- **Reversal Techniques**
-  - [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
-  - [143. Reorder List](https://leetcode.com/problems/reorder-list/)
-  
-- **Fast and Slow Pointer**
-  - [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
-  - [142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)
+### 🔹 Sliding Window
+- [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)  
+- [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)  
 
-- **Merge Techniques**
-  - [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
-  - [23. Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
-
-- **Node Manipulations**
-  - [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
+### 🔹 Anagram and Palindrome Problems
+- [Valid Anagram](https://leetcode.com/problems/valid-anagram/)  
+- [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)  
 
 ---
 
-## 3. Trees
+## 3. Linked Lists
 
-### **Depth-First Search (DFS)**
-- [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
-- [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
-- [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
+### 🔹 Basic Linked List Operations
+- [Reverse a Linked List](https://leetcode.com/problems/reverse-linked-list/)  
+- [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)  
 
-### **Breadth-First Search (BFS)**
-- [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
-
-### **Binary Search Tree (BST)**
-- [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
-- [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
-
-### **Tree Construction**
-- [105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
+### 🔹 Advanced Linked List Operations
+- [Detect Cycle in a Linked List](https://leetcode.com/problems/linked-list-cycle/)  
+- [Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)  
 
 ---
 
-## 4. Graphs
+## 4. Trees
 
-### **Graph Traversal Patterns**
-- **Depth-First Search (DFS)**
-  - [200. Number of Islands](https://leetcode.com/problems/number-of-islands/)
+### 🔹 Binary Tree Traversals
+- [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)  
 
-- **Breadth-First Search (BFS)**
-  - [542. 01 Matrix](https://leetcode.com/problems/01-matrix/)
-
-### **Union-Find**
-- [547. Number of Provinces](https://leetcode.com/problems/number-of-provinces/)
+### 🔹 Tree Operations
+- [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)  
+- [Invert/Flip Binary Tree](https://leetcode.com/problems/invert-binary-tree/)  
 
 ---
 
-## 5. Dynamic Programming
+## 5. Graphs
 
-- [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
-- [198. House Robber](https://leetcode.com/problems/house-robber/)
-- [322. Coin Change](https://leetcode.com/problems/coin-change/)
+### 🔹 Graph Traversal
+- [Clone Graph](https://leetcode.com/problems/clone-graph/)  
+- [Number of Islands](https://leetcode.com/problems/number-of-islands/)  
 
----
-
-## 6. Heaps
-
-- [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
-- [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
+### 🔹 Topological Sort
+- [Course Schedule](https://leetcode.com/problems/course-schedule/)  
 
 ---
 
-## 7. Stacks
+## 6. Dynamic Programming
 
-- [394. Decode String](https://leetcode.com/problems/decode-string/)
+### 🔹 Classic DP Problems
+- [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)  
+- [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)  
 
----
-
-## 8. Queues
-
-- [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
-
----
-
-## 9. Hash Tables
-
-- [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
+### 🔹 Knapsack-Type Problems
+- [Coin Change](https://leetcode.com/problems/coin-change/)  
+- [Word Break Problem](https://leetcode.com/problems/word-break/)  
 
 ---
 
-## 10. Binary
+## 7. Heaps
 
-- [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)
-- [338. Counting Bits](https://leetcode.com/problems/counting-bits/)
-- [136. Missing Number](https://leetcode.com/problems/missing-number/)
-
----
-
-## 11. Intervals
-
-- [252. Meeting Rooms](https://leetcode.com/problems/meeting-rooms/) (LeetCode Premium)
+### 🔹 Heap Operations
+- [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)  
+- [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)  
 
 ---
 
-## 12. Matrix
+## 8. Matrix
 
-- [73. Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
+### 🔹 Matrix Operations
+- [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)  
+- [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)  
 
 ---
 
-## 🎉 Conclusion
+## 9. Intervals
 
-This comprehensive repository now contains **75+ problems** to help you practice a wide range of problem-solving patterns. Use it to master essential coding techniques and ace your technical interviews. Happy coding! 🚀
+### 🔹 Interval Manipulation
+- [Insert Interval](https://leetcode.com/problems/insert-interval/)  
+- [Merge Intervals](https://leetcode.com/problems/merge-intervals/)  
+
+---
+
+## 🏆 Conclusion
+
+This guide provides a categorized list of **75 LeetCode problems** to help you ace technical interviews. Practice these problems, master patterns, and grow as a problem solver!
+
+Happy Coding! 🚀
