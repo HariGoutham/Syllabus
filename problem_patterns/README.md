@@ -132,6 +132,7 @@ This repository contains a curated list of **74** LeetCode problems categorized 
 
 ## Advanced:
 74. [Alien Dictionary](https://leetcode.com/problems/alien-dictionary/) (Leetcode Premium)
+75. [Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)
 
 ---
 
