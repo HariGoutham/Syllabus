@@ -23,3 +23,68 @@ Gitlab (backend project,frontend project) and Gitlab Runner
 Git(other learnings as projects)
 ArgoCd(setup backend project, setup frontend project)
 ----------------------
+I’ve reviewed close to 2000+ code review requests in my career. At this point, it’s as natural to me as having a cup of coffee. 
+
+However, from a senior engineer to now an engineering manager, I’ve learned a lot in between. 
+
+If I had to learn to review code all over again, this would be the checklist I follow (inspired from my experience)
+
+1. Ask clarifying questions: 
+ - What are the exact constraints or edge cases I should consider? 
+ - Are there any specific inputs or outputs to watch for? 
+ - What assumptions can I make about the data? 
+ - Should I optimize for time or space complexity? 
+
+2. Start simple: 
+ - What is the most straightforward way to approach this? 
+ - Can I explain my initial idea in one sentence? 
+ - Is this solution valid for the most common cases? 
+ - What would I improve after getting a basic version working? 
+
+3. Think out loud: 
+ - Why am I taking this approach over another? 
+ - What trade-offs am I considering as I proceed? 
+ - Does my reasoning make sense to someone unfamiliar with the problem? 
+ - Am I explaining my thought process clearly and concisely? 
+
+4. Break the problem into smaller parts: 
+ - Can I split the problem into logical steps? 
+ - What sub-problems need solving first? 
+ - Are any of these steps reusable for other parts of the solution? 
+ - How can I test each step independently? 
+
+5. Use test cases: 
+ - What edge cases should I test? 
+ - Is there a test case that might break my solution? 
+ - Have I checked against the sample inputs provided? 
+ - Can I write a test to validate the most complex scenario? 
+
+6. Handle mistakes gracefully: 
+ - What’s the root cause of this mistake? 
+ - How can I fix it without disrupting the rest of my code? 
+ - Can I explain what went wrong to the interviewer? 
+ - Did I learn something I can apply to the rest of the problem? 
+
+7. Stick to what you know: 
+ - Which language am I most confident using? 
+ - What’s the fastest way I can implement the solution with my current skills? 
+ - Are there any features of this language that simplify the problem? 
+ - Can I use familiar libraries or tools to save time? 
+
+8. Write clean, readable code: 
+ - Is my code easy to read and understand? 
+ - Did I name variables and functions meaningfully? 
+ - Does the structure reflect the logic of the solution? 
+ - Am I following best practices for indentation and formatting? 
+
+9. Ask for hints when needed: 
+ - What part of the problem am I struggling to understand? 
+ - Can the interviewer provide clarification or a nudge? 
+ - Am I overthinking this? 
+ - Does the interviewer expect a specific approach? 
+
+10. Stay calm under pressure: 
+ - What’s the first logical step I can take to move forward? 
+ - Have I taken a moment to reset my thoughts? 
+ - Am I focusing on the problem, not the time ticking away? 
+ - How can I reframe the problem to make it simpler?
