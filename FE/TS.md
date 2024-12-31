@@ -72,3 +72,13 @@ This guide provides a concise overview of core TypeScript concepts and practical
 - **Stay Updated**: Familiarize yourself with the latest trends and tools in TypeScript development.
 
 By focusing on these major topics and practical skills, you should be well-prepared for your upcoming interviews or practical applications in TypeScript development. Good luck!
+
+Enhancements to Consider
+While your guide is sufficient for most interviews, consider adding the following:
+
+TypeScript Utility Types: Topics like Partial, Required, Readonly, Record, Pick, and Omit are frequently used in real-world scenarios and interviews.
+Mapped Types: Understanding how to create and use mapped types for advanced type transformations.
+Conditional Types: Using conditional logic within types for dynamic type resolution.
+Module Resolution Strategies: Insights into how TypeScript resolves modules, including paths and baseUrl configuration.
+Integration with Frameworks: A deeper dive into using TypeScript with popular frameworks/libraries like Angular or Node.js.
+Performance and Optimization: Topics like how TypeScript compilation affects large projects, and best practices for improving performance.
